@@ -211,11 +211,9 @@ footer {
       .sidebar {
         float: none;
         width: 100%;
-        min-width: 100%;
         position: inherit;
         border-right: none;
         border-bottom: 1px solid black;
-        text-align: center;
       }
 
       .main {
