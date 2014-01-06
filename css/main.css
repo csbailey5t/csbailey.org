@@ -33,12 +33,13 @@ a:visited { color: #a0a; }
   text-align: justify;
   width: 100%;
   margin: auto;
-  line-height: 1.5em;
+  line-height: 1.66667em;
 }
 
 .sidebar {
   float: left;
-  width: 25%;
+  width: 20%;
+  min-width: 120px;
   height: 100%;
   position: fixed;  
   border-right: 1px solid black;
@@ -46,7 +47,7 @@ a:visited { color: #a0a; }
 
 .main {
   float: right;
-  width: 75%;
+  width: 80%;
 }
 
 .content {
@@ -128,7 +129,7 @@ article {
 .title {
   display: inline-block;
   margin: 1em 0;
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
 }
 
@@ -140,7 +141,6 @@ article {
 .date {
   font-size: .77778em;
   color: #5F6A89;
-  margin-bottom: 0px;
 }
 
 /* Archive styles */
@@ -207,5 +207,21 @@ footer {
   @media only screen and (min-width: 480px) and (max-width: 767px) {}
 
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-  @media only screen and (max-width: 479px) {}
+  @media only screen and (max-width: 479px) {
+      .sidebar {
+        float: none;
+        width: 100%;
+        min-width: 100%;
+        position: inherit;
+        border-right: none;
+        border-bottom: 1px solid black;
+        text-align: center;
+      }
+
+      .main {
+        float: none;
+        width: 100%;
+      }
+  }
+
 
