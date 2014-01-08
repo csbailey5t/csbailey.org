@@ -1,3 +1,5 @@
+/* Site styles */
+
 h1, 
 h2, 
 h3, 
@@ -17,12 +19,9 @@ a {
   text-decoration: none;
 }
 
+/* Post styles */
+
 article {
-  padding: 10px;
-}
-
-
-.archive {
   padding: 10px;
 }
 
@@ -57,6 +56,13 @@ time {
 
 }
 
+/* Archive styles */
+
+.archive {
+  padding: 10px;
+}
+
+.archive h1,
 .archive h3 {
   color: black;
 }
@@ -81,4 +87,12 @@ time {
 .archive a:focus {
   border-bottom: 1px solid #DF2D4F;
   color: #166F92;
+}
+
+.archive h1 a {
+  color: black;
+}
+
+.archive h1 a:visited{
+  color:black;
 }
