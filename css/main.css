@@ -27,17 +27,16 @@ article {
 }
 
 h1 a:link {
-  text-decoration: none;
   color: black;
 }
 
 h1 a:visited {
-
+  color: black;
 }
 
 h1 a:hover,
 h1 a:focus {
-
+  color: #DF2D4F;
 }
 
 p a:link {
@@ -50,7 +49,6 @@ p a:visited {
 
 p a:hover,
 p a:focus {
-  text-decoration: none;
   border-bottom: 1px solid #DF2D4F;
   color: #166F92;
 }
@@ -72,7 +70,6 @@ time {
 }
 
 .archive a:link {
-  text-decoration: none;
   color: #166F92;
 }
 
@@ -82,7 +79,6 @@ time {
 
 .archive a:hover,
 .archive a:focus {
-  text-decoration: none;
   border-bottom: 1px solid #DF2D4F;
   color: #166F92;
 }
