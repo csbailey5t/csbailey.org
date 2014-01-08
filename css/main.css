@@ -6,10 +6,11 @@ h3,
 h4,
 h5,
 h6 {
-
+  font-family: 'Raleway', serif; 
 }
 
 p {
+  font-family: 'Lora', sans-serif;
   font-size: 18px;
   line-height: 1.5em;
   color: black;
@@ -17,6 +18,12 @@ p {
 
 a {
   text-decoration: none;
+}
+
+/* Fonts for Menu */
+
+#menu {
+  font-family: 'Raleway', sans-serif;
 }
 
 /* Post styles */
@@ -59,12 +66,13 @@ time {
 /* Archive styles */
 
 .archive {
-  padding: 10px;
+  padding: 30px 10px 10px 10px;
 }
 
 .archive h1,
-.archive h3 {
+.archive h2 {
   color: black;
+  text-align: center;
 }
 
 .archive ul {
