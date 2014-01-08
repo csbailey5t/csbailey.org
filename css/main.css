@@ -1,225 +1,60 @@
-/* CSS based off CSS included in Jekyll, but heavily modified by Scott Bailey */
+h1, 
+h2, 
+h3, 
+h4,
+h5,
+h6 {
 
-
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
 }
 
-html, body { height: 100%; }
+p {
 
-body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
 }
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
-
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
-
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
-
-/* Site - globals and structure */
-
-.site {
-  font-size: 18px;
-  text-align: justify;
-  width: 100%;
-  margin: auto;
-  line-height: 1.66667em;
-}
-
-.sidebar {
-  float: left;
-  width: 20%;
-  min-width: 120px;
-  height: 100%;
-  position: fixed;  
-  border-right: 1px solid black;
-}
-
-.main {
-  float: right;
-  width: 80%;
-}
-
-.content {
-  padding: .55556em;
-  margin-left: 1em;
-  margin-right: 1em;
-}
-
-/* global text styles */
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica", sans-serif;
-}
-
-p, footer {
-  font-family: "Helvetica", serif;
-}
-
-/*sidebar styling */
-
-header {
-  margin-top: 50%;
-  text-align: right;
-  margin-right: 2em;  
-}
-
-#brand {
-  text-transform: uppercase;
-  font-size: 1.33334em;
-  font-family: "Helvetica", serif;
-}
-
-nav {
-  font-family: "Helvetica", sans-serif;
-}
-
-nav li {
-  padding: .27778em;
-  color: #DF2D4F;
-  list-style: none;
-}
-
-nav li a {
-  color: white;
-  text-decoration: none;
-  color: #DF2D4F;
-}
-
-nav li a:hover {
-  border-bottom: 1px solid white;
-}
-
-/* post text styles */
 
 article {
-  margin-bottom: 1.66667em;
-  border-bottom: 1px solid #DF2D4F;
+  padding: 10px;
 }
 
-.post-content {
-  margin-top: .16667em;
-  font-family: "Helvetica", serif;
-  color: #3C4256;
+
+.archive {
+  padding: 10px;
 }
 
-.content a {
-  text-decoration: none;
-  color: #4D7021;
-}
-
-.content a:hover {
-  border-bottom: 1px solid #DF2D4F;
-}
-
-.content a:visited {
-  color: ##61892F;
-}
-
-.title {
-  display: inline-block;
-  margin: 1em 0;
-  font-size: 2em;
-  text-align: center;
-}
-
-.title a {
+h1 a:link {
   text-decoration: none;
   color: black;
 }
 
-.date {
-  font-size: .77778em;
-  color: #5F6A89;
+h1 a:visited {
+
 }
 
-/* Archive styles */
+h1 a:hover,
+h1 a:focus {
 
-.archive {
+}
+
+p a:link {
+
+}
+
+p a:visited {
+
+}
+
+p a:hover,
+p a:focus {
+
+}
+
+time {
 
 }
 
 .archive ul {
-  list-style-type: none;
+  
 }
 
-/* footer styles */
+.archive li {
 
-footer {
-  text-align: center;
-  font-size: .66667em;
 }
-
-/* Code Snippets */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
-}
-
-.post ul, .post ol {
-  margin-left: 1.35em;
-}
-
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}
-
-.post pre code {
-  border: none;
-}
-
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-
-.post pre.terminal code {
-  background-color: #333;
-}
-
-/* #Media Queries
-================================================== */
-
-  /* Smaller than standard 960 (devices and browsers) */
-  @media only screen and (max-width: 959px) {}
-
-  /* Tablet Portrait size to standard 960 (devices and browsers) */
-  @media only screen and (min-width: 768px) and (max-width: 959px) {}
-
-  /* All Mobile Sizes (devices and browser) */
-  @media only screen and (max-width: 767px) {}
-
-  /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-  @media only screen and (min-width: 480px) and (max-width: 767px) {}
-
-  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-  @media only screen and (max-width: 479px) {
-      .sidebar {
-        float: none;
-        width: 100%;
-        position: inherit;
-        border-right: none;
-        border-bottom: 1px solid black;
-      }
-
-      .main {
-        float: none;
-        width: 100%;
-      }
-  }
-
-
