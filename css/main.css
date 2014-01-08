@@ -6,11 +6,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway', serif; 
+  font-family: 'Raleway', sans-serif; 
 }
 
 p {
-  font-family: 'Lora', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 18px;
   line-height: 1.5em;
   color: black;
@@ -60,19 +60,23 @@ p a:focus {
 }
 
 time {
-
+ font-family: 'Lora', serif;
 }
 
 /* Archive styles */
 
 .archive {
-  padding: 30px 10px 10px 10px;
+  padding: 10px;
 }
 
 .archive h1,
 .archive h2 {
   color: black;
+}
+
+.archive h1 {
   text-align: center;
+  padding-top: 30px;
 }
 
 .archive ul {
@@ -80,7 +84,7 @@ time {
 }
 
 .archive li {
-
+  font-family: 'Lora', serif;
 }
 
 .archive a:link {
